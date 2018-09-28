@@ -56,3 +56,12 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Custom stuff
+
+# Ignore Virtualenv
+vigenere-py3.6/
+
+# Ignore PyCharm Project Files
+# TODO: check what files need to be uploaded for other users to use without portability problems
+.idea/
