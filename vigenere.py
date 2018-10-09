@@ -370,7 +370,7 @@ def main() -> None:
 
             if HAVE_PYPERCLIP and input("Do you want to copy the result to the clipboard? [Y/N] ").lower() == "y":
                 pyperclip.copy(plain)
-                print("Successfully copied plainrtext to the clipboard!")
+                print("Successfully copied plaintext to the clipboard!")
         elif cmd in ["hide"]:
             print("This feature is not yet implemented.")
         elif cmd in ["crack", "c"]:
